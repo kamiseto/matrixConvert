@@ -1,4 +1,4 @@
-onvert ={
+var matrixConvert ={
 'isObj' : function(obj){return typeof obj == 'object' ? true : false},
 'hasMatrix' : function(obj){return obj.hasOwnProperty ('matrix') ? true : false},
 'isMirrorX' : function(obj){
